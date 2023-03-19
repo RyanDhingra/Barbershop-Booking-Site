@@ -1,0 +1,209 @@
+.bg-img {
+    filter: blur(6px);
+    width: 100%;
+    height: 100%;
+    transform: scale(1.1);
+}
+
+.welcome-page {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+}
+
+.bottom-panel {
+    position: absolute;
+    bottom: 0;
+    height: 15%;
+    width: 100%;
+    background-color: #526432;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid white;
+}
+
+.logo {
+    font-family: "Cellofy";
+    font-size: 12rem;
+    color: #526432;
+    text-shadow: 2px 2px whitesmoke;
+    text-align: center;
+    margin-top: 30%;
+    margin-bottom: 0%;
+}
+
+.sub-logo {
+    font-size: 2rem;
+    font-family: "EuropaGrotesk";
+    letter-spacing: 2px;
+    font-weight: 100;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 30%;
+    margin-bottom: 0%;
+}
+
+button {
+    padding: 1.3em 3em;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: black;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid transparent;
+}
+
+button:hover {
+    background-color: #526432;
+    box-shadow: 0px 15px 20px rgba(82, 100, 50, 0.4);
+    color: whitesmoke;
+    transform: translateY(-7px);
+    border: 2px solid white;
+}
+
+button:active {
+    transform: translateY(-1px);
+}
+
+.login {
+    margin: 0;
+    font-size: 1rem;
+    font-family: 'EuropaGrotesk';
+}
+
+@font-face {
+    font-family: "Cellofy";
+    src: local("Cellofy"),
+        url("../../assets/Logo_Font.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "EuropaGrotesk";
+    src: local("EuropaGrotesk"),
+        url("../../assets/EuropaGrotesk.otf") format("opentype");
+}
+
+.apt-cont {
+    width: 80%;
+    height: 40%;
+    border-radius: 25px;
+    outline: 2px solid white;
+}
+
+.apt-top {
+    width: 100%;
+    height: 15%;
+    background-color: blue;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.apt-title {
+    margin: 0;
+    width: 100%;
+    background-color: #526432;
+    height: 100%;
+    text-align: center;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'EuropaGrotesk';
+    letter-spacing: 2px;
+    color: white;
+}
+
+.apt-info {
+    height: 85%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: flex; 
+    overflow: hidden;
+}
+
+.details {
+    color: black;
+    margin: 0;
+    font-family: "EuropaGrotesk";
+    letter-spacing: 2px;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.status-info {
+    width: 50%;
+    height: 100%;
+    border-bottom-left-radius: 25px;
+    padding-left: 20px;
+}
+
+.date-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+}
+
+.time-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    border-bottom-right-radius: 25px;
+}
+
+.card-cont {
+    display: flex;
+    width: 80%;
+    height: 120%;
+    position: relative;
+    top: -80%;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    background: #526432;
+    transition: all 300ms;
+    margin-left: 7%;
+    margin-right: 7%;
+    border-radius: 15px;
+    border: white 2px solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    font-family: 'EuropaGrotesk';
+    letter-spacing: 2px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+.option-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.card-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+}

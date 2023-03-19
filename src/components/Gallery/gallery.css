@@ -1,0 +1,98 @@
+.gallery-page {
+    background-color: #526432;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.gallery-ls {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gallery-rs {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+.stars {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.author {
+    font-family: "EuropaGrotesk";
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    color: wheat;
+    margin: 0;
+    margin-left: 1.5rem;
+}
+
+.testimonial {
+    font-family: "EuropaGrotesk";
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    color: wheat;
+    margin: 0;
+    font-style: italic;
+}
+
+.testimonial-cont {
+    width: 100%;
+    padding-top: 5%;
+}
+
+.curr-img {
+    border-radius: 100%;
+    width: 35vw;
+    border: 2px wheat solid;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.curr-img.active {
+    border-radius: 100%;
+    width: 35vw;
+    border: 2px wheat solid;
+    position: absolute;
+    opacity: 1;
+}
+
+.grid-image {
+    width: 10vw;
+    margin: 1.5vw;
+    height: 10vw;
+    border-radius: 100%;
+    border: 2px white solid;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.grid-center {
+    width: 10vw;
+    margin: 1.5vw;
+    height: 10vw;
+}
+
+.grid-image:hover {
+    transform: scale(1.1) !important;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}

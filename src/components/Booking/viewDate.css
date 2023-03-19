@@ -1,0 +1,198 @@
+.date-viewer {
+    width: 80vw;
+    height: 80vh;
+    opacity: 1;
+    transition: opacity 0.5s;
+    z-index: 1;
+}
+
+.date-viewer.hidden {
+  opacity: 0;
+  z-index: -1;
+}
+
+.current-date {
+    width: 70%;
+    margin: 0;
+    font-family: "EuropaGrotesk";
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 3rem;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.times {
+    width: 40vw;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeslot {
+    font-family: "EuropaGrotesk";
+    letter-spacing: 2px;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    width: 15vw;
+    padding: 1.25vw;
+    margin: 1.25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    background-color: #526432;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 1);
+}
+
+.timeslot.selected {
+  background-color: white;
+  color: black;
+}
+
+.timeslot:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+    background-color: white;
+    color: black;
+}
+
+.view-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow:hover {
+    transform: scale(1.2);
+}
+
+.book {
+    width: 50%;
+}
+
+.types {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.confirm {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.type {
+  margin: 0;
+  font-family: "EuropaGrotesk";
+  color: white;
+  padding: 2rem;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+.checkbox-wrapper-31:hover .check {
+    stroke-dashoffset: 0;
+}
+
+.checkbox-wrapper-31 {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+.checkbox-wrapper-31 .background {
+  fill: #ccc;
+  transition: ease all 0.6s;
+  -webkit-transition: ease all 0.6s;
+}
+
+.checkbox-wrapper-31 .stroke {
+  fill: none;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+  stroke-dashoffset: 100;
+  stroke-dasharray: 100;
+  transition: ease all 0.6s;
+  -webkit-transition: ease all 0.6s;
+}
+
+.checkbox-wrapper-31 .check {
+  fill: none;
+  stroke: #fff;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2px;
+  stroke-dashoffset: 22;
+  stroke-dasharray: 22;
+  transition: ease all 0.6s;
+  -webkit-transition: ease all 0.6s;
+}
+
+.checkbox-wrapper-31 input[type=checkbox] {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  margin: 0;
+  opacity: 0;
+  -appearance: none;
+}
+
+.checkbox-wrapper-31 input[type=checkbox]:hover {
+  cursor: pointer;
+}
+
+.checkbox-wrapper-31 input[type=checkbox]:checked + svg .background {
+  fill: #526432;
+}
+
+.checkbox-wrapper-31 input[type=checkbox]:checked + svg .stroke {
+  stroke-dashoffset: 0;
+}
+
+.checkbox-wrapper-31 input[type=checkbox]:checked + svg .check {
+  stroke-dashoffset: 0;
+}
+  
+
+.type-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.confirm-btn {
+  margin: 5%;
+  border: 2px solid transparent;
+}
+
+.cancel-btn {
+  margin: 5%;
+  border: 2px solid transparent;
+}
+
+.confirm-btn:hover {
+  border: 2px solid white;
+}
+
+.cancel-btn:hover {
+  border: 2px solid white;
+}
