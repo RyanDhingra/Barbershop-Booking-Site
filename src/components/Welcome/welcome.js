@@ -46,7 +46,7 @@ function Welcome(props) {
             <img className='bg-img' src='https://cdn.discordapp.com/attachments/1008571126177345636/1073486466270904421/Etrigan_modern_day_empty_barbershop_with_multiple_seats_mirrors_ce4a7a9c-a2bb-4016-8ff3-917c6d59d605.png' alt='Barbershop'/>
             <div style={{display: 'flex', width: '100%', height: '80vh', justifyContent: 'center', alignItems: 'center', position: 'absolute', top: 0, left: 0}}>
                 <div className='p1-ls' style={{width: '100%', height: '100%'}}>
-                    <h1 className='logo'>FXDED</h1>
+                    <h1 className='logo'>Cuts</h1>
                     <div style={{display: 'flex', width: '100%', justifyContent: 'center', alignItems: 'center'}}>
                             <button>
                                 <h1 className='login'>Sign In</h1>

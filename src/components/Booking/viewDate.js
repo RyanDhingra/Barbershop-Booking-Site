@@ -76,7 +76,7 @@ function ViewDate({ date, reset }) {
                         </div>
                         <div className='type-cont' data-aos='fade' data-aos-duration='1500'>
                             <h1 className='type'>
-                                Haircut + Beard
+                                Haircut
                             </h1>
                             <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', marginRight: '5%'}}>
                                 <h1 className='type'>
