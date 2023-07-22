@@ -11,7 +11,7 @@ function Contact() {
                 <button className='send'>Send</button>
             </div>
             <div className='contact-rs'  data-aos='fade' data-aos-duration='1500'>
-                <img className='map' src='https://www.google.com/maps/d/thumbnail?mid=1bF682wNKzuV0SszyD9rYE8D02e0&hl=en' alt='Map'/>
+                <img className='map' src='https://upload.wikimedia.org/wikipedia/commons/7/73/Mercator_projection_Square.JPG' alt='Map'/>
                 <div className='location'>
                     <h3 className='location-info'>1 Park Lane, Toronto, Ontario, M2M 1M1</h3>   
                 </div>
